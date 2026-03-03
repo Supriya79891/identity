@@ -2,6 +2,9 @@
 <html>
 <head>
 <title>Rapuru Supriya | AI & Data Science</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
@@ -20,7 +23,7 @@ overflow-x:hidden;
 position:relative;
 }
 
-/* Subtle Grid Texture */
+/* Subtle Grid Background */
 body::before{
 content:"";
 position:fixed;
@@ -33,7 +36,7 @@ background-size:40px 40px;
 z-index:-2;
 }
 
-/* Soft Floating Light Animation */
+/* Soft Moving Glow */
 body::after{
 content:"";
 position:fixed;
@@ -60,7 +63,6 @@ padding:60px 20px;
 /* HERO */
 .hero{
 display:flex;
-justify-content:space-between;
 align-items:center;
 min-height:100vh;
 }
@@ -81,7 +83,7 @@ color:#00bfff;
 border-right:2px solid #00bfff;
 white-space:nowrap;
 overflow:hidden;
-animation:typing 3s steps(25), blink 0.7s infinite;
+animation:typing 3s steps(30), blink 0.7s infinite;
 }
 
 @keyframes typing{
@@ -96,6 +98,7 @@ to{width:100%}
 .btn{
 display:inline-block;
 margin-top:25px;
+margin-right:10px;
 padding:12px 25px;
 background:#141414;
 border:1px solid #2a2a2a;
@@ -157,6 +160,7 @@ color:#00bfff;
 color:#aaa;
 font-size:14px;
 margin-top:5px;
+line-height:1.6;
 }
 
 /* FOOTER */
@@ -185,26 +189,32 @@ text-align:center;
 <div class="hero">
 <div class="hero-left">
 <h1>Rapuru Supriya</h1>
-<h2 class="typing">Aspiring Software Engineer</h2>
+<h2 class="typing">AI & Data Science Enthusiast | Aspiring Software Engineer</h2>
+
+<p style="margin-top:20px; color:#aaa; max-width:500px;">
+Passionate about Artificial Intelligence, Machine Learning, and Web Development. 
+Focused on building scalable real-world applications using Python and modern technologies.
+</p>
 
 <a href="#contact" class="btn">Contact Me</a>
 <a href="resume.pdf" download class="btn">Download Resume</a>
 </div>
 </div>
 
-<!-- ABOUT -->
+<!-- PROFESSIONAL SUMMARY -->
 <section>
-<h2 class="section-title">About Me</h2>
-<p style="color:#aaa; line-height:1.7;">
-I am a BTech 3rd Year student specializing in Artificial Intelligence 
-& Data Science. Passionate about building real-world applications 
-using Python, Web Technologies and Machine Learning. 
-My goal is to work as a Software Engineer in a top tech company.
+<h2 class="section-title">Professional Summary</h2>
+<p style="color:#aaa; line-height:1.8;">
+Highly motivated BTech 3rd Year student specializing in Artificial Intelligence 
+and Data Science. Strong foundation in Python programming, data structures, 
+machine learning fundamentals, and full-stack web development. 
+Actively building projects and continuously improving problem-solving skills.
 </p>
 </section>
-<!-- SKILLS -->
+
+<!-- TECHNICAL SKILLS -->
 <section>
-<h2 class="section-title">Skills</h2>
+<h2 class="section-title">Technical Skills</h2>
 <div class="skills">
 <span>Python</span>
 <span>Java</span>
@@ -214,23 +224,87 @@ My goal is to work as a Software Engineer in a top tech company.
 <span>HTML</span>
 <span>CSS</span>
 <span>Git & GitHub</span>
+<span>Power BI</span>
 </div>
 </section>
 
-<!-- TIMELINE -->
+<!-- PROJECTS -->
 <section>
-<h2 class="section-title">Education</h2>
+<h2 class="section-title">Projects</h2>
 <div class="timeline">
+
 <div class="timeline-item">
-<h3>BTech – AI & Data Science</h3>
-<p>2023 – 2027 | Pursuing 3rd Year</p>
+<h3>Fake Website Detection System</h3>
+<p>Developed a system to detect fraudulent websites using machine learning techniques focusing on URL analysis and phishing detection strategies.</p>
 </div>
 
 <div class="timeline-item">
-<h3>Intermediate</h3>
-<p>MPC Background</p>
+<h3>Stock Market Data Analysis</h3>
+<p>Performed data analysis on global stock market datasets using Python, Pandas, and Matplotlib. Identified top performing countries and trends.</p>
 </div>
+
+<div class="timeline-item">
+<h3>Portfolio Website</h3>
+<p>Designed and developed a responsive professional portfolio website using HTML, CSS, and modern UI principles.</p>
 </div>
+
+</div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+<h2 class="section-title">Certifications</h2>
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Python Programming Certification</h3>
+<p>Completed structured training in Python programming and problem-solving techniques.</p>
+</div>
+
+<div class="timeline-item">
+<h3>Machine Learning Fundamentals</h3>
+<p>Learned supervised and unsupervised learning algorithms including regression, classification, and clustering.</p>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+<h2 class="section-title">Education</h2>
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>BTech – Artificial Intelligence & Data Science</h3>
+<p>2023 – 2027 | Currently 3rd Year</p>
+</div>
+
+<div class="timeline-item">
+<h3>Intermediate – MPC</h3>
+<p>Mathematics, Physics, Chemistry</p>
+</div>
+
+</div>
+</section>
+
+<!-- SOFT SKILLS -->
+<section>
+<h2 class="section-title">Soft Skills</h2>
+<div class="skills">
+<span>Problem Solving</span>
+<span>Analytical Thinking</span>
+<span>Team Collaboration</span>
+<span>Communication</span>
+<span>Time Management</span>
+</div>
+</section>
+
+<!-- CAREER OBJECTIVE -->
+<section>
+<h2 class="section-title">Career Objective</h2>
+<p style="color:#aaa; line-height:1.8;">
+To secure a challenging position in a reputed technology company where I can apply my AI and software development skills, contribute to innovative solutions, and continuously grow as a professional.
+</p>
 </section>
 
 <!-- CONTACT -->
@@ -240,6 +314,7 @@ My goal is to work as a Software Engineer in a top tech company.
 <a href="https://github.com/Supriya79891" target="_blank" class="btn">GitHub</a>
 <a href="https://www.linkedin.com/in/rapuru-supriya-5779b2362" target="_blank" class="btn">LinkedIn</a>
 <a href="mailto:rapurusupriya28@gmail.com" class="btn">Email</a>
+
 </section>
 
 <footer>
